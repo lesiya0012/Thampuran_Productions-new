@@ -1,0 +1,17 @@
+# Node modules
+front/node_modules/
+back/node_modules/
+
+# Build output
+front/build/
+back/dist/
+
+# Environment files
+*.env
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+path/to/largefile
+front/public/images/portfoliovideos/*.mp4
