@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-black text-white py-16 px-6 md:px-20">
+    <div className="bg-black text-white py-12 px-6 md:px-20">
       <h2 className="text-4xl font-bold text-amber-600 mb-4">Get In Touch</h2>
        
         <p className="text-lg mb-10 text-gray-300"> Ready to bring your vision to life? Let's start a conversation. </p>

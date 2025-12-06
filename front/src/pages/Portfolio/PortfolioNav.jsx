@@ -4,7 +4,6 @@ const subdivisions = [
   { id: "Films", title: "Films" },
   { id: "ModelShoot", title: "Model Shoot" },
   { id: "Adshoot", title: "Ad Shoot" },
-  { id: "Branding", title: "Branding" },
   { id: "SoundDesign", title: "Sound Design" },
 ];
 
