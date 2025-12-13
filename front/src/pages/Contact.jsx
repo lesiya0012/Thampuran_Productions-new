@@ -29,7 +29,8 @@ const Contact = () => {
       console.error(err);
       alert('Something went wrong!');
     }
-  };
+  };4
+
 
   return (
     <div className="bg-black text-white py-12 px-6 md:px-20">

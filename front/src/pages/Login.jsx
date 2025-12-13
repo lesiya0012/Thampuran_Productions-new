@@ -108,19 +108,9 @@ function Login() {
           <p className="text-red-500 text-sm mb-2">{errors.password}</p>
         )}
 
-        {/* Options */}
-        <div className="flex justify-between text-sm text-gray-400 mt-3">
-          <label className="flex items-center gap-2">
-            <input type="checkbox" className="accent-yellow-500" />
-            Remember me
-          </label>
+       
 
-          <button type="button" className="text-yellow-400 hover:underline">
-            Forgot password?
-          </button>
-        </div>
-
-        {/* Sign in */}
+        {/*Sign in */}
         <button
           type="submit"
           className="w-full bg-yellow-500 text-black font-semibold py-2 rounded-lg mt-5 hover:bg-yellow-400 transition shadow-md"

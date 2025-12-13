@@ -8,23 +8,23 @@ const teammodel=[
   },
   {
     id:2,
-    name: "Lesiya Alexander",
-    email:"lesiya@gmail.com",
-    designation:"WEB DEVELOPER",
-    photo:"http://localhost:5000/images/lesi.png"
+    name: "Vishnav",
+    email:"vishnav@gmail.com",
+    designation:"HR",
+    photo:"http://localhost:5000/images/vai.jpg"
   },
   {
     id:3,
     name: "Sharlet",
     email:"sharlet@gmail.com",
-    designation:"Back-end developer",
+    designation:"Senior Video Editor",
     photo:"https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-olly-733872.jpg&fm=jpg"
   },
   {
     id:4,
     name: "Margret",
     email:"margret@gmail.com",
-    designation:"Full Stack developer",
+    designation:"Marketing Head",
     photo:"https://img.freepik.com/free-photo/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop_23-2148029483.jpg?semt=ais_hybrid&w=740&q=80"
   },
   {

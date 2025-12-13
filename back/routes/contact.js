@@ -32,7 +32,7 @@ router.post('/contact', async (req, res, next) => {
 
     await sendMail({ from, to, subject, text, html });
 
-    res.status(201).json({ message: 'Message received and email sent', data: saved });
+    res.status(201).json({ message: ' email sent', data: saved });
   } catch (err) {
     next(err);
   }
