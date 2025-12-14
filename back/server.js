@@ -38,19 +38,9 @@ app.use(errorHandler);
 
 
 
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
+
 
 app.use(errorHandler);
 
 
-
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
-  });
-}).catch((err) => {
-  console.error('Failed to connect DB:', err);
-  process.exit(1);
-});
+module.exports = app;
