@@ -1,4 +1,4 @@
-import Navbar from '../../components/Navbar.';
+import Navbar from '../../components/Navbar';
 import PortfolioNav from './PortfolioNav';
 
 const Films = () => (

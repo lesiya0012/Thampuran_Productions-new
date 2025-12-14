@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioNav from './PortfolioNav';
-import Navbar from '../../components/Navbar.';
+import Navbar from '../../components/Navbar';
 
 const Adshoot = () => (
   <section className="bg-black min-h-screen text-white">
