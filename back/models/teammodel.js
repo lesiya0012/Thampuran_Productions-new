@@ -4,14 +4,14 @@ const teammodel=[
     name: "Alexander Edwin",
     email:"alexanderedwin@gmail.com",
     designation:"CEO",
-    photo:"http://localhost:5000/images/Alexander.png"
+    photo:"https://res.cloudinary.com/dvaxpatax/image/upload/v1765694526/Alexander_on7p0o.png"
   },
   {
     id:2,
     name: "Vishnav",
     email:"vishnav@gmail.com",
     designation:"HR",
-    photo:"http://localhost:5000/images/vai.jpg"
+    photo:"https://res.cloudinary.com/dvaxpatax/image/upload/v1765694543/vai_ezrsdf.jpg"
   },
   {
     id:3,

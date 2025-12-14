@@ -12,7 +12,7 @@ const connectDB = require('./config/db');
 connectDB();
 const authRoutes = require('./routes/auth');
 const contactRoutes = require('./routes/contact');
-const errorHandler = require('./middleware/errorHandler');
+const errorHandler = require('./middleware/errorhandler');
 const teamRoutes = require('./routes/teamroute');
 
 
