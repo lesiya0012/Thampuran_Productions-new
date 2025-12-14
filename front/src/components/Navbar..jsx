@@ -39,7 +39,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <div className={`space-y-2 md:space-x-4 md:flex ${isOpen ? 'block' : 'hidden'} md:block`}>
         <a href="/main#home" className="block md:inline px-3 py-2 rounded-md transition transform hover:scale-110 hover:bg-yellow-400 hover:text-black">
-          Home
+         Home
         </a>
         <a href="/main#about" className="block md:inline px-3 py-2 rounded-md transition transform hover:scale-110 hover:bg-yellow-400 hover:text-black">
           About

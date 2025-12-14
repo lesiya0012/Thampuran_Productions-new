@@ -42,7 +42,7 @@ function Register() {
     }
 
     try {
-      const res = await axios.post("https://thampuran-productions-new-q6vr.vercel.app/api/auth/signup", {
+      const res = await axios.post("http://localhost:5000/api/auth/signup", {
         name,
         email,
         password,
@@ -114,10 +114,22 @@ function Register() {
         >
           Register
         </button>
+
+         <p className="text-center mt-5 text-gray-400 text-sm">
+          Aldready Have an Account?
+          <button
+            onClick={() => navigate("/")}
+            type="button"
+            className="text-yellow-400 font-semibold hover:underline"
+          >
+            Login
+          </button>
+        </p>
+
       </form>
 
       <footer className="text-gray-600 text-xs mt-6 text-center z-10">
-        © 2024 Thampuran Productions. All rights reserved.
+        © 2025 Thampuran Productions. All rights reserved.
       </footer>
     </div>
   );
