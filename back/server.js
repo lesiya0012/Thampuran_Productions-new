@@ -9,13 +9,18 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const connectDB = require('./config/db');
+connectDB();
 const authRoutes = require('./routes/auth');
 const contactRoutes = require('./routes/contact');
 const errorHandler = require('./middleware/errorHandler');
 const teamRoutes = require('./routes/teamroute');
 
 
-app.use(cors());
+app.use(cors({
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}));
 app.use(express.json());            
 app.use(morgan('dev'));           
 
@@ -32,12 +37,6 @@ app.use('/api/team', teamRoutes);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
-
-
-app.use(errorHandler);
-
-
-
 
 
 app.use(errorHandler);
